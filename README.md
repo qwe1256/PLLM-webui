@@ -80,8 +80,8 @@ The up-to-date commands can be found here: https://pytorch.org/get-started/local
 #### 3. Install the web UI
 
 ```
-git clone https://github.com/oobabooga/text-generation-webui
-cd text-generation-webui
+git clone [https://github.com/oobabooga/text-generation-webui](https://github.com/qwe1256/PLLM-webui.git)
+cd PLLM-webui
 pip install -r requirements.txt
 ```
 
@@ -102,7 +102,7 @@ pip install -r requirements_nocuda.txt
 5) AMD: Manually install [ExLlama](https://github.com/turboderp/exllama) by simply cloning it into the `repositories` folder (it will be automatically compiled at runtime after that):
 
 ```
-cd text-generation-webui
+cd PLLM-webui
 mkdir repositories
 cd repositories
 git clone https://github.com/turboderp/exllama
