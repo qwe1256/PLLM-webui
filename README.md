@@ -131,7 +131,7 @@ From time to time, the `requirements.txt` changes. To update, use these commands
 
 ```
 conda activate textgen
-cd text-generation-webui
+cd PLLM-webui
 pip install -r requirements.txt --upgrade
 ```
 
@@ -203,7 +203,7 @@ When you load this model in default or notebook modes, the "HTML" tab will show 
 ## Starting the web UI
 
     conda activate textgen
-    cd text-generation-webui
+    cd PLLM-webui
     python server.py
 
 Then browse to 
