@@ -1,3 +1,5 @@
+# Modification: Upload training datasets and fix generate_prompt() in modules/training.py
+
 # Text generation web UI
 
 A Gradio web UI for Large Language Models.
@@ -106,12 +108,10 @@ cd repositories
 git clone https://github.com/turboderp/exllama
 ```
 
-#### bitsandbytes on older NVIDIA GPUs
+#### bitsandbytes on Windows installation
 
-bitsandbytes >= 0.39 may not work. In that case, to use `--load-in-8bit`, you may have to downgrade like this:
-
-* Linux: `pip install bitsandbytes==0.38.1`
-* Windows: `pip install https://github.com/jllllll/bitsandbytes-windows-webui/raw/main/bitsandbytes-0.38.1-py3-none-any.whl`
+* Linux: `pip install bitsandbytes`
+* Windows: `python -m pip install bitsandbytes --prefer-binary --extra-index-url=https://jllllll.github.io/bitsandbytes-windows-webui`
 
 ### Alternative: Docker
 
